@@ -94,7 +94,6 @@ public class Employee extends Person {
             if (EmployeeList[i].getID() == ID) {
                 System.out.println("Enter new Role for " + EmployeeList[i].getname() + ":");
                 String newRole  = sc.nextLine();
-                sc.nextLine();
                 EmployeeList[i].setRole(newRole);
 
                 System.out.println("Enter new Salary for " + EmployeeList[i].getname() + ":");
@@ -127,7 +126,7 @@ public class Employee extends Person {
             System.out.println((i+1)+".Name: " + EmployeeList[i].getname()+
                     ", ID  : " + EmployeeList[i].getID() + ", Phone Number  : " + EmployeeList[i].getPhoneNo()+
                     ", Address  : " + EmployeeList[i].getAddress()+
-                    ", Salary " + EmployeeList[i].getSalary() + ", Role"+ EmployeeList[i].getRole() +
+                    ", Salary " + EmployeeList[i].getSalary() + ", Role : "+ EmployeeList[i].getRole() +
                     ", Joining date "+EmployeeList[i].getJoiningDate()+ "\n");
         }
     }
