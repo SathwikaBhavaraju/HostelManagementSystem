@@ -58,7 +58,7 @@ To run this project, you need to have Java installed on your system.
 
 3. Compile the Java source code:
    ```sh
-   javac Drive.java
+   java Drive.java
    ```
 
 4. Run the compiled program:
