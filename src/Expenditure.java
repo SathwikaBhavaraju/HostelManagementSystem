@@ -60,3 +60,10 @@ public class Expenditure {
         System.out.println("\n \tTotal expenses: Rs" + getTotalExpenses()+"\n");
     }
 }
+
+
+
+
+
+
+
